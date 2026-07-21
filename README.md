@@ -40,13 +40,15 @@ qiskit2_qaoa_workshop/
 ### Installation
 
 1. Clone or download this repository
-2. Install dependencies:
+2. Install **core** runtime dependencies (Qiskit, NumPy, SciPy, Matplotlib):
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Launch Jupyter Notebook:
+3. To run the workshop notebook, install Jupyter separately:
 ```bash
+pip install jupyter ipykernel
+# or: pip install -r requirements-notebooks.txt
 jupyter notebook qaoa_notebook.ipynb
 ```
 

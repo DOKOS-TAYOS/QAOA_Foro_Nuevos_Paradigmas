@@ -1,0 +1,4 @@
+# Optional: Jupyter stack for running qaoa_notebook.ipynb
+# Install after core deps: pip install -r requirements.txt -r requirements-notebooks.txt
+ipykernel>=7.0
+jupyter>=1.0
